@@ -1,0 +1,58 @@
+body{
+    min-height: 1000px;
+    width: 90%;
+    margin: 20px auto;
+    display: grid;
+   grid-template-columns: 700px 300px;
+}
+.section-right{
+    grid-column: span 1/span 2;
+    background-color: lightcyan;
+    text-align: center;
+     
+
+}
+.heading{
+    text-align: center;
+}
+.section-left{
+    grid-column: span 1;
+    background-color: lightseagreen;
+    text-align: center;
+
+    
+}
+/* #inputs{
+  
+   
+    margin: auto;
+   
+    background-color:green;
+    width: 300px;
+    height:300px;
+} */
+/* padding-top
+padding-right
+padding-bottom
+padding-left */
+#inputs input{
+   padding: 20px 8px 20px 5px;
+   text-align: center;
+  
+    
+    
+  
+   
+
+   
+
+}
+
+
+#titleSCore{
+    
+  color: red;
+}
+#notes{
+    list-style: none;
+}

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div class="section-left">
+        <div id="main">
+            <h1>TIC TAC TOE</h1>
+            <h3>Game Instruction </h3>
+            <details>
+                1:-First Enter Your Name <br>
+                2:-Tap To Run Your Turn <br>
+                3:-computer By Default Represent O
+            </details>
+            <br><br>
+            <div id="inputs">
+
+                <input type="text" id="b1" onclick="myfunc_3(); myfunc();" readonly>
+
+                <input type="text" id="b2" onclick="myfunc_4(); myfunc();" readonly>
+
+                <input type="text" id="b3" onclick="myfunc_5(); myfunc();" readonly>
+                <br><br>
+
+                <input type="text" id="b4" onclick="myfunc_6(); myfunc();" readonly>
+
+                <input type="text" id="b5" onclick="myfunc_7(); myfunc();" readonly>
+
+                <input type="text" id="b6" onclick="myfunc_8(); myfunc();" readonly>
+                <br><br>
+
+                <input type="text" id="b7" onclick="myfunc_9(); myfunc();" readonly>
+
+                <input type="text" id="b8" onclick="myfunc_10();myfunc();" readonly>
+
+                <input type="text" id="b9" onclick="myfunc_11();myfunc();" readonly>
+            </div>
+
+            <br><br><br>
+
+            <button id="but" onclick="myfunc_2()">
+                RESET
+            </button>
+            <br><br>
+            <p id="print"></p>
+        </div>
+    </div>
+    <div class="section-right">
+        <h1>Lets Play</h1>
+        <input id="Name-input" type="text" placeholder="Enter Your Name" required />
+        <button id="note-submit" onclick="myFunction()">Enter</button>
+        <p id="demo"></p>
+        <h1 id="titleSCore">Score Card</h1>
+        <p>Plyer |<span>| wins</span></p>
+        <hr>
+        <div id="notes">
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
