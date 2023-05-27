@@ -4,4 +4,5 @@ where 2 players can play and put values in the boxes.. either using mouse or but
 https://tic-tac-toe-game-dev.netlify.app/
 
 ## Scree Shots
-![Web capture_27-5-2023_81444_polite-praline-91fabf netlify app](https://github.com/jitu1212/Tic-Tac-Toe-/assets/98046486/659f3145-8685-4610-a93c-1f1fabf8c856)
+![Web capture_27-5-2023_82448_tic-tac-toe-game-dev netlify app](https://github.com/jitu1212/Tic-Tac-Toe-/assets/98046486/c40f942c-1dda-4b89-96c6-6e15893d4810)
+
